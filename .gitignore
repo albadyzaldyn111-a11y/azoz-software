@@ -8,5 +8,6 @@
 /storage/logs/*
 !/storage/logs/.gitkeep
 vendor/
+build/
 .DS_Store
 *.log
