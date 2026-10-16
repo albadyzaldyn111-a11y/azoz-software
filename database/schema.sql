@@ -1,8 +1,8 @@
 -- Azoz Software database schema
 -- MySQL/MariaDB, InnoDB, utf8mb4
 
-CREATE DATABASE IF NOT EXISTS azoz_software CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE azoz_software;
+-- Import this file after selecting the database created by the hosting provider.
+-- Example: mariadb -u USER -p DATABASE_NAME < schema.sql
 
 SET FOREIGN_KEY_CHECKS = 0;
 DROP TABLE IF EXISTS deliveries, notifications, financial_transactions, files, messages, conversation_members, conversations, task_reviews, tasks, project_members, projects, quotation_decisions, quotations, project_requests, currencies, audit_logs, login_attempts, developer_invitations, password_resets, email_verifications, users;
