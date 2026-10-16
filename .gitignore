@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+/storage/private/*
+!/storage/private/.gitkeep
+/storage/temporary/*
+!/storage/temporary/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+vendor/
+.DS_Store
+*.log
